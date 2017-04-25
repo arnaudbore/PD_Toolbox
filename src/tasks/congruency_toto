@@ -1,0 +1,32 @@
+20.5987 	DATA 	Keypress: 5
+2.0101 	StartPerformance 	0
+2.0101 	Key 	[ 1.  1.]
+2.6851 	DATA 	Mouse: Left button down, pos=(624,48)
+2.6868 	Answer 	right
+4.6916 	DATA 	Mouse:  Left button up, pos=(624,48)
+5.3640 	DATA 	Mouse: Left button down, pos=(205,59)
+5.3655 	Answer 	left
+7.7097 	DATA 	Mouse:  Left button up, pos=(206,57)
+8.5599 	DATA 	Mouse: Left button down, pos=(620,51)
+8.5615 	Answer 	right
+10.8451 	DATA 	Mouse:  Left button up, pos=(620,51)
+11.7829 	DATA 	Mouse: Left button down, pos=(193,33)
+11.8827 	DATA 	Mouse:  Left button up, pos=(193,33)
+12.1688 	DATA 	Mouse: Left button down, pos=(189,54)
+12.1704 	Answer 	left
+14.1574 	DATA 	Mouse:  Left button up, pos=(189,54)
+14.3581 	StartRest 	0
+16.3621 	StartPerformance 	1
+16.3621 	Key 	[ 1.  0.]
+17.4609 	DATA 	Mouse: Left button down, pos=(209,46)
+17.4625 	Answer 	left
+20.0103 	DATA 	Mouse:  Left button up, pos=(209,47)
+21.3619 	DATA 	Mouse: Left button down, pos=(594,52)
+21.3634 	Answer 	right
+23.2092 	DATA 	Mouse:  Left button up, pos=(595,52)
+25.9939 	DATA 	Mouse: Left button down, pos=(198,65)
+25.9954 	Answer 	left
+27.9765 	DATA 	Mouse:  Left button up, pos=(198,65)
+29.9389 	DATA 	Mouse: Left button down, pos=(199,46)
+29.9404 	Answer 	left
+32.7104 	DATA 	Mouse:  Left button up, pos=(198,49)

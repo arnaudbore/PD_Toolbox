@@ -1,0 +1,68 @@
+27.8168 	DATA 	Keypress: 5
+0.0166 	StartExp 	
+2.0201 	StartPerformance 	0
+2.0261 	Key 	0
+3.1339 	DATA 	Mouse: Left button down, pos=(408,384)
+3.1360 	Key 	3
+3.2514 	DATA 	Mouse:  Left button up, pos=(409,383)
+3.7685 	DATA 	Mouse: Left button down, pos=(355,243)
+3.7704 	Key 	4
+3.8774 	DATA 	Mouse:  Left button up, pos=(355,242)
+4.2436 	DATA 	Mouse: Left button down, pos=(335,326)
+4.2454 	Key 	0
+4.3524 	DATA 	Mouse:  Left button up, pos=(333,328)
+4.7726 	DATA 	Mouse: Left button down, pos=(416,383)
+4.7745 	Key 	1
+4.8364 	DATA 	Mouse:  Left button up, pos=(416,383)
+5.2736 	DATA 	Mouse: Left button down, pos=(463,325)
+5.2756 	Key 	3
+5.3744 	DATA 	Mouse:  Left button up, pos=(463,325)
+5.7406 	DATA 	Mouse: Left button down, pos=(354,217)
+5.7424 	Key 	2
+5.8504 	DATA 	Mouse:  Left button up, pos=(354,217)
+6.2256 	DATA 	Mouse: Left button down, pos=(440,234)
+6.2275 	Key 	4
+6.3074 	DATA 	Mouse:  Left button up, pos=(436,227)
+6.5676 	DATA 	Mouse: Left button down, pos=(316,344)
+6.6854 	DATA 	Mouse:  Left button up, pos=(316,344)
+7.2046 	DATA 	Mouse: Left button down, pos=(320,335)
+7.2065 	Key 	0
+7.2954 	DATA 	Mouse:  Left button up, pos=(320,335)
+7.5445 	DATA 	Mouse: Left button down, pos=(396,385)
+7.5464 	Key 	2
+7.6444 	DATA 	Mouse:  Left button up, pos=(397,383)
+7.9745 	DATA 	Mouse: Left button down, pos=(443,250)
+8.0037 	StartRest 	0
+9.8073 	DATA 	Mouse:  Left button up, pos=(440,236)
+10.0074 	StartPerformance 	1
+10.0121 	Key 	1
+11.4916 	DATA 	Mouse: Left button down, pos=(475,330)
+11.4934 	Key 	0
+11.5914 	DATA 	Mouse:  Left button up, pos=(475,329)
+11.8685 	DATA 	Mouse: Left button down, pos=(392,370)
+11.8706 	Key 	3
+11.9684 	DATA 	Mouse:  Left button up, pos=(392,369)
+12.3796 	DATA 	Mouse: Left button down, pos=(359,235)
+12.3816 	Key 	4
+12.4614 	DATA 	Mouse:  Left button up, pos=(359,235)
+12.7825 	DATA 	Mouse: Left button down, pos=(336,326)
+12.7845 	Key 	0
+12.8824 	DATA 	Mouse:  Left button up, pos=(335,318)
+13.1865 	DATA 	Mouse: Left button down, pos=(405,374)
+13.1886 	Key 	1
+13.2404 	DATA 	Mouse:  Left button up, pos=(403,370)
+13.6235 	DATA 	Mouse: Left button down, pos=(466,332)
+13.6255 	Key 	3
+13.7334 	DATA 	Mouse:  Left button up, pos=(466,330)
+14.0375 	DATA 	Mouse: Left button down, pos=(362,231)
+14.0393 	Key 	2
+14.0915 	DATA 	Mouse:  Left button up, pos=(362,231)
+14.4746 	DATA 	Mouse: Left button down, pos=(467,229)
+14.5133 	Key 	4
+14.5574 	DATA 	Mouse:  Left button up, pos=(461,227)
+14.8875 	DATA 	Mouse: Left button down, pos=(324,345)
+14.9343 	Key 	0
+14.9873 	DATA 	Mouse:  Left button up, pos=(325,332)
+15.2836 	DATA 	Mouse: Left button down, pos=(404,386)
+15.2851 	StartRest 	1
+17.0884 	DATA 	Mouse:  Left button up, pos=(405,383)
