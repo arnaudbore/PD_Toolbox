@@ -5,7 +5,7 @@
 from psychopy import gui  #fetch default gui handler (qt if available)
 from ld_config import arrow_seqA, arrow_seqB, arrow_nbBlocks, arrow_nbKeys, arrow_durRest, flipMonitor, fullScreen
 import os
-import tkinter
+import Tkinter
 
 def getParamMenu():
     # create a DlgFromDict

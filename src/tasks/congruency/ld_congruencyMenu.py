@@ -5,7 +5,7 @@
 from psychopy import gui  #fetch default gui handler (qt if available)
 from ld_config import congruency_durRest
 import os
-import tkinter
+import Tkinter
 from tkFileDialog import askopenfilename
 from ld_utils import readDesign
 
@@ -22,7 +22,7 @@ def getParamMenu():
         tip={'Observer': 'trained visual observer, initials', 'durRest': 'seconds'})
 
     
-    tkinter.Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
+    Tkinter.Tk().withdraw() # we don't want a full GUI, so keep the root window from appearing
     filename = askopenfilename() # show an "Open" dialog box and return the path to the selected file
     info['design'] = readDesign(filename)
     

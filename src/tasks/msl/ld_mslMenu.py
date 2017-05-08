@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 
 from psychopy import gui  #fetch default gui handler (qt if available)
-import tkinter
+import Tkinter
 
 import os
 import sys
@@ -37,42 +37,42 @@ def checkLanguage(currLanguage):
 
 # Buttons TASK + COMMANDS RUN
 def createRest(topMenu):
-    rest = tkinter.Button(topMenu, text ="Rest", command=runRest)
+    rest = Tkinter.Button(topMenu, text ="Rest", command=runRest)
     rest.grid(column=0,row=0)
 
 def runRest():    
     os.system('python ld_mslRest.py')
     
 def createSleepiness(topMenu):
-    sleepiness = tkinter.Button(topMenu, text ="Sleepiness", command=runSleepiness)
+    sleepiness = Tkinter.Button(topMenu, text ="Sleepiness", command=runSleepiness)
     sleepiness.grid(column=0,row=1)
 
 def runSleepiness():    
     os.system('python ld_mslSleepiness.py')    
     
 def createVerification(topMenu):
-    verification = tkinter.Button(topMenu, text ="Verification", command=runVerification)
+    verification = Tkinter.Button(topMenu, text ="Verification", command=runVerification)
     verification.grid(column=0,row=2)
     
 def runVerification():    
     os.system('python ld_mslVerification.py')    
     
 def createIntro(topMenu):
-    intro = tkinter.Button(topMenu, text=' Intro ', command=runIntro)
+    intro = Tkinter.Button(topMenu, text=' Intro ', command=runIntro)
     intro.grid(column=0,row=3)
 
 def runIntro():    
     os.system('python ld_mslIntro.py')        
     
 def createTraining(topMenu):
-    training = tkinter.Button(topMenu, text ="Training", command=runTraining)
+    training = Tkinter.Button(topMenu, text ="Training", command=runTraining)
     training.grid(column=0,row=4)
 
 def runTraining():    
     os.system('python ld_mslTask.py')        
     
 def chooseTask():
-    task = tkinter.Tk()
+    task = Tkinter.Tk()
     task.title('MSL Tasks')
     task.grid()
     createRest(task)

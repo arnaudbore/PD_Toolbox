@@ -2,30 +2,30 @@
 # CRIUGM
 # -*- coding: utf-8 -*-
 
-import tkinter
+import Tkinter
 import sys
 import os
     
 rawFolder = os.getcwd() + os.path.sep
 
 def createMSLTask(topMenu):
-    mslTask = tkinter.Button(topMenu, text ="MSL", command=runMSL)
+    mslTask = Tkinter.Button(topMenu, text ="MSL", command=runMSL)
     mslTask.grid(column=0,row=0)
 
 def createRhythmTask(topMenu):
-    rhythmTask = tkinter.Button(topMenu, text ="Rhythm", command=runRhythm)
+    rhythmTask = Tkinter.Button(topMenu, text ="Rhythm", command=runRhythm)
     rhythmTask.grid(column=1,row=0)
     
 def createArrowTask(topMenu):
-    arrowTask = tkinter.Button(topMenu, text ="Arrow", command=runArrow)
+    arrowTask = Tkinter.Button(topMenu, text ="Arrow", command=runArrow)
     arrowTask.grid(column=2,row=0)
 
 def createCongruencyTask(topMenu):
-    fofixTask = tkinter.Button(topMenu, text ="Congruency", command=runCongruency)
+    fofixTask = Tkinter.Button(topMenu, text ="Congruency", command=runCongruency)
     fofixTask.grid(column=3,row=0)    
     
 def createFoFixTask(topMenu):
-    fofixTask = tkinter.Button(topMenu, text ="FoFix", command=runFoFix)
+    fofixTask = Tkinter.Button(topMenu, text ="FoFix", command=runFoFix)
     fofixTask.grid(column=4,row=0)
     
 def runMSL():
@@ -48,7 +48,7 @@ def runFoFix():
     print 'FoFix'
     
 #Menu
-toolbox = tkinter.Tk()
+toolbox = Tkinter.Tk()
 toolbox.grid()
 toolbox.title('Toolbox - Parkinson')
 createMSLTask(toolbox)

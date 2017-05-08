@@ -1,32 +1,30 @@
-20.5987 	DATA 	Keypress: 5
-2.0101 	StartPerformance 	0
-2.0101 	Key 	[ 1.  1.]
-2.6851 	DATA 	Mouse: Left button down, pos=(624,48)
-2.6868 	Answer 	right
-4.6916 	DATA 	Mouse:  Left button up, pos=(624,48)
-5.3640 	DATA 	Mouse: Left button down, pos=(205,59)
-5.3655 	Answer 	left
-7.7097 	DATA 	Mouse:  Left button up, pos=(206,57)
-8.5599 	DATA 	Mouse: Left button down, pos=(620,51)
-8.5615 	Answer 	right
-10.8451 	DATA 	Mouse:  Left button up, pos=(620,51)
-11.7829 	DATA 	Mouse: Left button down, pos=(193,33)
-11.8827 	DATA 	Mouse:  Left button up, pos=(193,33)
-12.1688 	DATA 	Mouse: Left button down, pos=(189,54)
-12.1704 	Answer 	left
-14.1574 	DATA 	Mouse:  Left button up, pos=(189,54)
-14.3581 	StartRest 	0
-16.3621 	StartPerformance 	1
-16.3621 	Key 	[ 1.  0.]
-17.4609 	DATA 	Mouse: Left button down, pos=(209,46)
-17.4625 	Answer 	left
-20.0103 	DATA 	Mouse:  Left button up, pos=(209,47)
-21.3619 	DATA 	Mouse: Left button down, pos=(594,52)
-21.3634 	Answer 	right
-23.2092 	DATA 	Mouse:  Left button up, pos=(595,52)
-25.9939 	DATA 	Mouse: Left button down, pos=(198,65)
-25.9954 	Answer 	left
-27.9765 	DATA 	Mouse:  Left button up, pos=(198,65)
-29.9389 	DATA 	Mouse: Left button down, pos=(199,46)
-29.9404 	Answer 	left
-32.7104 	DATA 	Mouse:  Left button up, pos=(198,49)
+92.4050 	DATA 	Keypress: 5
+2.0094 	StartPerformance 	0
+2.0094 	Key 	[ 1.  1.]
+3.6507 	DATA 	Mouse: Left button down, pos=(957,71)
+3.6526 	Answer 	right
+6.1352 	DATA 	Mouse:  Left button up, pos=(957,71)
+7.5505 	DATA 	Mouse: Left button down, pos=(356,102)
+7.5527 	Answer 	left
+9.5383 	DATA 	Mouse:  Left button up, pos=(355,101)
+10.4425 	DATA 	Mouse: Left button down, pos=(974,81)
+10.4445 	Answer 	right
+12.5090 	DATA 	Mouse:  Left button up, pos=(972,85)
+14.0663 	DATA 	Mouse: Left button down, pos=(343,84)
+14.0687 	Answer 	left
+16.0172 	DATA 	Mouse:  Left button up, pos=(342,85)
+16.2183 	StartRest 	0
+18.2227 	StartPerformance 	1
+18.2227 	Key 	[ 1.  0.]
+19.4220 	DATA 	Mouse: Left button down, pos=(353,76)
+19.4241 	Answer 	left
+22.0709 	DATA 	Mouse:  Left button up, pos=(351,76)
+23.4184 	DATA 	Mouse: Left button down, pos=(306,77)
+23.4205 	Answer 	left
+26.0571 	DATA 	Mouse:  Left button up, pos=(309,77)
+28.5103 	DATA 	Mouse: Left button down, pos=(320,86)
+28.5124 	Answer 	left
+30.9069 	DATA 	Mouse:  Left button up, pos=(320,85)
+32.1418 	DATA 	Mouse: Left button down, pos=(349,92)
+32.1442 	Answer 	left
+34.7912 	DATA 	Mouse:  Left button up, pos=(348,92)

@@ -4,7 +4,7 @@ from ld_config import rawFolder, congruency_circleFillColor, congruency_congruen
 import numpy as np
 
 def createWindow():
-    win = visual.Window(screen=0,monitor='participantMonitor', color=-1, size=[800,600])
+    win = visual.Window(screen=1,monitor='testMonitor', color=-1, size=[1280, 1024])
     return win
 
 def createOutputFile():

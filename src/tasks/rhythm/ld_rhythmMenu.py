@@ -5,7 +5,7 @@
 from psychopy import gui  #fetch default gui handler (qt if available)
 from ld_config import rhythm_freq, rhythm_nbBlocks, rhythm_shortRest, rhythm_durRest, rhythm_halfBlockDuration, fullScreen
 import os
-import tkinter
+import Tkinter
 
 def getParamMenu():
     # create a DlgFromDict
