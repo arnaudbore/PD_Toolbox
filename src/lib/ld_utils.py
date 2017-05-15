@@ -1,15 +1,16 @@
 from psychopy import visual
 import tkFileDialog
-from ld_config import rawFolder, congruency_circleFillColor, congruency_congruentColors
+from ld_config import rawFolder, congruency_circleFillColor, congruency_congruentColors, output
 import numpy as np
+import os
+import time
 
 def createWindow():
     win = visual.Window(screen=1,monitor='testMonitor', color=-1, size=[1280, 1024])
     return win
 
-def createOutputFile():
-    logFilename = tkFileDialog.asksaveasfilename()
-    return logFilename
+def createOutputFile(mainTask, currTask, currSubject):
+	return os.path.join(output, mainTask, currSubject + '_' + currTask + '_' + time.strftime("%Y%m%d-%H%M%S") + '.log')
 
 def getArrowVertices(iVertices):
     oVertices = np.empty([7,2])

@@ -2,6 +2,11 @@ import os
 
 rawFolder = os.getcwd() + os.path.sep
 
+output = os.path.join(rawFolder,'..','..','..','output')
+stimuli = os.path.join(rawFolder,'..','..','stimulis')
+
+observers = ['ABoutin', 'EGabitov', 'LGamache']
+
 #### Pictures
 standford_fr = os.path.join(rawFolder,'..','..','stimulis','StanfordSleepinessScale_fr.png')
 standford_en = os.path.join(rawFolder,'..','..','stimulis','StanfordSleepinessScale_en.png')
@@ -20,10 +25,9 @@ congruency_circleRadius = .2
 congruency_congruentColors = ['gold','blueviolet']
 
 #Experience
-congruency_jitter = [2, 3]
+congruency_jitter = [0.1, 0.3]
 congruency_durRest = 2
 ###
-
 
 ### MSL Parameters
 #Visu
@@ -39,6 +43,17 @@ msl_durRest = 2
 
 ### Rhythm Parameters
 #Visu
+
+#### EXPYRIMENT
+
+windowMode = True  # if False use FullScreen
+windowSize = (1024, 768)  # if windowMode is True then use windowSize
+
+restBGColor = (0, 0, 0)  # expyriment.misc.constants.C_BLACK
+restCrossColor = (255, 0, 0)  # expyriment.misc.constants.C_WHITE
+regularCrossColor = (0, 255, 0)  # expyriment.misc.constants.C_WHITE
+restCrossSize = (100, 100)
+restCrossThickness = 10
 
 #Experience
 rhythm_nbBlocks = 2
